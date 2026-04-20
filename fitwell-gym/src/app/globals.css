@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand: #ccff00;
+  --color-background: #1e293b; /* Distinct Slate 800 so the color change is highly noticeable */
+  --color-surface: #334155; /* Slate 700 to contrast the new background */
+  --color-foreground: #ffffff;
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-heading: var(--font-outfit), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --animate-marquee: marquee 45s linear infinite; /* Slower marquee */
+  
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for the whole page */
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom Selection Color */
+::selection {
+  background-color: var(--color-brand);
+  color: black;
+}
+
+/* Custom Scrollbar for a premium slower feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: #3a4150;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand);
+}
