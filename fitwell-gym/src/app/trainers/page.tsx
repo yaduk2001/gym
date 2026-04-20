@@ -5,7 +5,7 @@ export default function TrainersPage() {
   const trainers = [
     { name: "Susan Cambridge", role: "Head Coach", img: "https://images.unsplash.com/photo-1567598508481-65985588e295?q=80&w=1000&auto=format&fit=crop" },
     { name: "Sarah Connor", role: "Cardio Specialist", img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1000&auto=format&fit=crop" },
-    { name: "Susy Francis", role: "Boxing Coach", img: "https://imgs.search.brave.com/EME9M9cSy9FvfHvcx2gMPkp1H5Dj4YaKufPRsAyon8Tf/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODgx/MzU5MDA2L3Bob3Rv/L3dvbWFuLWJveGVy/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1vMGh3dzJ3VFR0/LTRkVVE5RUpBR1Ns/WEtvMWhDTzhvRzEz/NEJtVDBnUENBPQ" },
+    { name: "Susy Francis", role: "Boxing Coach", img: "https://media.istockphoto.com/id/881359006/photo/woman-boxer.jpg?s=612x612&w=0&k=20&c=o0hww2wTTt-4dUQ9EJAGSlXKo1hCO8oG134BmT0gPCA=" },
     { name: "Elena Rostova", role: "Yoga Master", img: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1000&auto=format&fit=crop" }
   ];
 
